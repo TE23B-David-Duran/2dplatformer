@@ -43,7 +43,7 @@ public class playercontroller : MonoBehaviour
         }
 
     }
-    // För att kolla om du är på
+    // För att kolla om du är på marken
     private bool IsGrounded()
     {
         if (Physics2D.OverlapCircle(groundChecker.position, .2f,groundLayer))
